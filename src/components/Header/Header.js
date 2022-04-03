@@ -4,7 +4,8 @@ import logo from '../../assets/logo.png'
 import './Header.css'
 const Header = () => {
     return (
-        <div className='conatainer row header d-flex align-items-center'>
+        <div className="container">
+            <div className='row header d-flex align-items-center'>
             <div className="col-lg-4">
             <img src={logo} alt="logo"/>
             </div>
@@ -16,6 +17,7 @@ const Header = () => {
                     <Link to="/blogs">Blogs</Link>
                 </nav>
             </div>
+        </div>
         </div>
     );
 };
