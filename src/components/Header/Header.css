@@ -1,0 +1,7 @@
+.header .navigation-bar a{
+    text-decoration: none;
+    color: #000;
+    margin: 5px 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
