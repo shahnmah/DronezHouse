@@ -1,10 +1,44 @@
 [
     {
-      "id": "01",
-      "name": "Biman Bangladesh Airlines",
-      "price": 4500,
-      "model": "Boeing 787-9 DreamLiner",
-      "scale": "1:1200",
-      "img": "https://cdn.jetphotos.com/full/6/11526_1646093446.jpg"
+        "id": "01",
+        "name": "David Anderson",
+        "review" : "Needless to say we are extremely satisfied with the results. I would be lost without Drone. It's really wonderful",
+        "rating" : 5,
+        "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+    },
+    {
+        "id": "02",
+        "name": "Jason Baker",
+        "review" : "If you aren't sure, always go for this Drone. No matter where you go, Drone is the coolest, most happening thing around! You won't regret it.",
+        "rating" : 4.5,
+        "img": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+        "id": "03",
+        "name": "Harry Powell",
+        "review" : "Thanks guys, keep up the good work! Drone is worth much more than I paid. Thanks guys, keep up the good work!",
+        "rating" : 5,
+        "img": "https://images.pexels.com/photos/3777557/pexels-photo-3777557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+        "id": "04",
+        "name": "Robert Graham",
+        "review" : "This Drone is worth much more than I paid. It's incredible. Drone did exactly what you said it does. Drone has really helped our business",
+        "rating" : 4.5,
+        "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeghttps://images.pexels.com/photos/8937551/pexels-photo-8937551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+        "id": "05",
+        "name": "Ryan Walker",
+        "review" : "We've used the Drone for the last 6 months. I'm good to go. I have gotten at least 50 times the value from Drone. Drone is the real deal!",
+        "rating" : 5,
+        "img": "https://images.pexels.com/photos/4183527/pexels-photo-4183527.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "id": "06",
+        "name": "Simon Hughes",
+        "review" : "This Drone was worth a fortune to my company. DronezHouse, your stuff is the bomb! I don't know what else to say. I couldn't have asked for more than this",
+        "rating" : 4.5,
+        "img": "https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
     }
 ]
