@@ -1,0 +1,10 @@
+[
+    {
+      "id": "01",
+      "name": "Biman Bangladesh Airlines",
+      "price": 4500,
+      "model": "Boeing 787-9 DreamLiner",
+      "scale": "1:1200",
+      "img": "https://cdn.jetphotos.com/full/6/11526_1646093446.jpg"
+    }
+]
