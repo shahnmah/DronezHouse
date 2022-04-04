@@ -8,10 +8,7 @@ import Dashboard from './components/Dashboard/Dashboard'
 import Blogs from './components/Blogs/Blogs'
 import NotFound from './components/NotFound/NotFound'
 import AllReviews from './components/AllReviews/AllReviews'
-import useReviews from './hooks/useReviews';
-
 function App() {
-  const [reviews, setReviews] = useReviews()
   return (
     <div className="App">
       <Header></Header>
@@ -23,7 +20,6 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
-      <Reviews></Reviews>
     </div>
   );
 }

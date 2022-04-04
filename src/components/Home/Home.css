@@ -1,4 +1,4 @@
-.home h1{
+.home h1,h2{
     background-image: linear-gradient(20deg, #006678, #4FA8FF);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -9,7 +9,7 @@
 .home p{
     color: #0c0b0b;
 }
-.demo-button{
+.button{
     padding: 7px 15px;
     background-image: linear-gradient(20deg, #006678, #4FA8FF);
     background-clip: text;
