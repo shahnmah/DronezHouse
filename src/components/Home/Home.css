@@ -18,7 +18,11 @@
     border-image: linear-gradient(to right bottom, #006678, #4FA8FF);
     border-image-slice: 1;
 }
-/* .demo-button:hover{
-    background: linear-gradient(to right bottom, #006678, #4FA8FF);
-    color: #fff;
-} */
+.link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #4FA8FF;
+    padding: 7px 15px;
+    border: 2px solid #006678;
+}

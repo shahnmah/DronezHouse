@@ -33,7 +33,7 @@ const Home = () => {
                         reviews.slice(0, 3).map(review => <Reviews key={review.id} review={review}></Reviews>)
                     }
                 </div>
-                <button className='button fw-bold'>See More</button>
+                <Link className='link'  to="/reviews">See More</Link>
             </div>
 
         </div>
