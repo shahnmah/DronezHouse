@@ -30,7 +30,7 @@ const Home = () => {
                 <div className="row">
 
                     {
-                        reviews.slice(0, 3).map(review => <Reviews review={review}></Reviews>)
+                        reviews.slice(0, 3).map(review => <Reviews key={review.id} review={review}></Reviews>)
                     }
                 </div>
                 <button className='button fw-bold'>See More</button>
