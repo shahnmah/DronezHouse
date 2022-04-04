@@ -3,6 +3,8 @@ import './Home.css'
 import droneImg from '../../assets/drone.png'
 import Reviews from '../Reviews/Reviews';
 import useReviews from '../../hooks/useReviews'
+import { Link } from 'react-router-dom';
+import AllReviews from '../AllReviews/AllReviews';
 
 const Home = () => {
     const [reviews, setReviews] = useReviews()
@@ -24,17 +26,16 @@ const Home = () => {
                 </div>
             </div>
             <div className="reviews text-center my-5">
-            <h2 className='display-5 fw-bold'>What Our Customer Say</h2>
+                <h2 className='display-5 fw-bold'>What Our Customer Say</h2>
                 <div className="row">
-                    
-                        {
-                           reviews.slice(0, 3).map(review => <Reviews review={review}></Reviews>) 
-                        }
 
+                    {
+                        reviews.slice(0, 3).map(review => <Reviews review={review}></Reviews>)
+                    }
                 </div>
                 <button className='button fw-bold'>See More</button>
             </div>
-            
+
         </div>
     );
 };

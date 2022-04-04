@@ -3,8 +3,8 @@ import './AllReviews.css'
 
 const AllReviews = () => {
     return (
-        <div>
-            <h1>All reviews</h1>
+        <div className='container'>
+           <h1>All Reviews</h1>
         </div>
     );
 };
