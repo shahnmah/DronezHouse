@@ -4,10 +4,9 @@ import droneImg from '../../assets/drone.png'
 import Reviews from '../Reviews/Reviews';
 import useReviews from '../../hooks/useReviews'
 import { Link } from 'react-router-dom';
-import AllReviews from '../AllReviews/AllReviews';
 
 const Home = () => {
-    const [reviews, setReviews] = useReviews()
+    const [reviews] = useReviews()
     return (
         <div className='container'>
             <div className="home">
@@ -20,7 +19,7 @@ const Home = () => {
                         </p>
                         <button className='button fw-bold'>Watch Demo</button>
                     </div>
-                    <div className="col-lg-6 col-md-5 col-sm-6 col-12">
+                    <div className="drone-img col-lg-6 col-md-5 col-sm-6 col-12">
                         <img className='img-fluid' src={droneImg} alt="" />
                     </div>
                 </div>
@@ -28,12 +27,11 @@ const Home = () => {
             <div className="reviews text-center my-5">
                 <h2 className='display-5 fw-bold'>What Our Customer Say</h2>
                 <div className="row">
-
                     {
                         reviews.slice(0, 3).map(review => <Reviews key={review.id} review={review}></Reviews>)
                     }
                 </div>
-                <Link className='link'  to="/reviews">See More</Link>
+                <Link className='link' to="/reviews">See More</Link>
             </div>
 
         </div>
